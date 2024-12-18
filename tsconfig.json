@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/Cart.jsx", "app/components/Pagination.jsx", "app/page.jsx", "app/(product)/page.jsx", "app/components/SearchBar.jsx", "app/components/ProductList.jsx", "app/components/ProductItem.jsx", "app/components/ProductFilter.jsx", "app/(product)/[id]/page.jsx"],
   "exclude": ["node_modules"]
 }
